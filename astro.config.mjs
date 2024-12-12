@@ -17,8 +17,8 @@ export default defineConfig({
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://gianmarco.xyz/sitemap-index.xml",
-        "https://gianmarco.xyz/sitemap-0.xml",
+        "https://jhonathanrooms.github.io/sitemap-index.xml",
+        "https://jhonathanrooms.github.io/sitemap-0.xml",
       ],
     }),
     solidJs(),
