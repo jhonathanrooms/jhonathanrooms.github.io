@@ -12,7 +12,8 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://jhonathanrooms.github.io",
+  site: 'https://jhonathanrooms.github.io',
+  base: 'jhonathanrooms.github.io',
   integrations: [
     sitemap(),
     robotsTxt({
